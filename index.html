@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    
+    <h1><center><u><b><i>CALCULATOR</i></b></u> </center></h1>
+    <link rel="stylesheet" href="App.css">
+    <div id="Calculator">
+      <center>
+        <input type="text" id="display" readonly><br> <br>
+
+        <button id="res" onclick="appendValue('1')"  >1</button>
+        <button id="res"onclick="appendValue('2')" >2</button>
+        <button id="res"onclick="appendValue('3')" >3</button>
+        <button id="res"onclick="appendValue('+')">+</button><br><br>
+        <button id="res"onclick="appendValue('4')" >4</button>
+        <button id="res"onclick="appendValue('5')" >5</button>
+        <button id="res"onclick="appendValue('6')">6</button>
+        <button id="res"onclick="appendValue('-')">-</button><br><br>
+        <button id="res"onclick="appendValue('7')">7</button>
+        <button id="res"onclick="appendValue('8')">8</button>   
+        <button id="res"onclick="appendValue('9')">9</button>
+        <button id="res"onclick="appendValue('x')">x</button><br><br>
+        <button id="res"onclick="appendValue('0')">0</button>
+        <button id="res"onclick="appendValue('/')">/</button>
+        <button id="res"onclick="appendValue('%')">%</button>
+        <button id="res"onclick="calculateResult()">=</button><br><br>
+    <button id="res"onclick="clearDisplay()">Clear</button>
+      </center>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>

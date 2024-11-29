@@ -1,0 +1,59 @@
+div{
+    box-shadow:10px 10px 1px rgb(162, 94, 25) ;
+    color: brown ;
+    box-shadow: 30px;
+    border-radius: 40px;
+    height: 13cm;
+    width:9cm;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+    padding-left: 30px;
+     padding-left: 10px;
+     margin-left: 580px;
+     background-image:url('https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-cute-hand-drawn-style-mathematics-education-pink-background-image_337362.jpg') ;
+     
+    
+}
+input{
+    background-color: beige;
+    color: maroon;
+     height:1.8cm;
+     width:8cm;
+     border-radius: 40px;
+     font-size: 0.9cm;
+}
+button{
+    border-radius: 10px;
+    border-style: solid;
+    height: 1.5cm;
+    width:1.8cm;
+    font-size: 0.6cm;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/25/730/desktop-wallpaper-aurora-red-green-blue-purple-1366x768-pixels-tagged-backgrounds-blue-red-green-thumbnail.jpg');
+
+}
+/* #display {
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 18px;
+} */
+ h1{
+       background-color:cornsilk;
+       color: rgba(57, 18, 66, 0.837);  
+     /* background-image: linear-gradient(red,blue,green,orange,marron); */
+      font-size: 1.4cm ;
+     
+ }
+ @keyframes demo{
+    0%{background-color: blue;font-size: 10px;}
+    20%{background-color: green;font-size: 10px;}
+    40%{background-color: orange;font-size: 10px;}
+    60%{background-color: maroon;font-size: 10px;}
+    80%{background-color: gold;font-size: 10px;}
+    100%{background-color: white;font-size: 10px;}
+ }
+ body{
+    background-image: url('https://thumbs.dreamstime.com/b/education-seamless-wallpaper-knowledge-school-supplies-book-backpack-vector-illustration-39869795.jpg');
+ }
